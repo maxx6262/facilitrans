@@ -1,0 +1,35 @@
+{
+  "name": "facilitrans",
+  "version": "1.0.0",
+  "description": "ERP associations aide domicile et gestion transmissions pros",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxx6262/facilitrans.git"
+  },
+  "keywords": [
+    "ERP",
+    "Node.js",
+    "MongoDB",
+    "Express",
+    "transmissions",
+    "messages"
+  ],
+  "author": "M.LECOUSTRE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxx6262/facilitrans/issues"
+  },
+  "homepage": "https://github.com/maxx6262/facilitrans#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
